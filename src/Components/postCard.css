@@ -1,0 +1,107 @@
+.card {
+    width: 36.875em;
+    height: 35.5em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #e2d8d8;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 10px;
+
+  }
+
+  .image-c{
+    width: 356px;
+    height: 262px;
+  }
+
+  .price{
+    font-size: 110%;
+    color: black;
+  }
+  
+.input-group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: center;
+  max-width: 220px;
+}
+
+.submit-button {
+  font-size: 12px;
+  padding: 0.25em 0.5em;
+  border: transparent;
+  height: 30px;
+  box-shadow: 0 12px 16px 0 rgba(168, 158, 158, 0.24);
+  background: #efebeb;
+  border-radius: 0 10px 10px 0;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  transition: 0.3s;
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  cursor: pointer;
+}
+
+.submit-button:active {
+  transform: translate(0em, 0.2em);
+}
+
+.submit-button span {
+  font-weight: 800;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.3s;
+}
+
+.submit-button:hover span {
+  background: #2E2E2E;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.3s;
+}
+
+#input-field {
+  background-color: #e8e3e3;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  margin: 0px 2px 0px 0px;
+  width: 250px;
+  height: 28px;
+  padding-left: 8px;
+  color: rgb(36, 34, 34);
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+::placeholder {
+  color: rgb(21, 20, 20);
+}
+
+
+.comment {
+  width: 220px;
+  background-color: #a19d9d;
+  height: 73px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+
+.comment-text{
+  width: 200px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  padding: 3px;
+  color: #2E2E2E;
+  text-align: center;
+  margin: 5px auto;
+}
